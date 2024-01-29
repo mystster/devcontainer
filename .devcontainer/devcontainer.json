@@ -46,7 +46,7 @@
 
 	"remoteEnv": {
 		"XDG_ROOT_HOME" : "/home/node/dotfiles",
-		"RUST_INSTALL" : "true",
+		"RUST_INSTALL" : "false",
 		"PNPM_INSTALL" : "true"
 	}
 }
