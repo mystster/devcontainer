@@ -45,6 +45,8 @@
 	// "forwardPorts": [],
 
 	"remoteEnv": {
-		"XDG_ROOT_HOME" : "/home/node/dotfiles"
+		"XDG_ROOT_HOME" : "/home/node/dotfiles",
+		"RUST_INSTALL" : "true",
+		"PNPM_INSTALL" : "true"
 	}
 }

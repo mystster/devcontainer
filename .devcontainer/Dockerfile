@@ -21,9 +21,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     # * TODO: Add any additional OS packages you want included in the definition *
     # * here. We want to do this before cleanup to keep the "layer" small.       *
     # ****************************************************************************
-    # install pnpm
-    && curl -fsSL https://get.pnpm.io/install.sh | sh - \
-    
     && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts
 
 # [Optional] Uncomment if you want to install an additional version of node using nvm
