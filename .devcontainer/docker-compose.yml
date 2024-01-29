@@ -42,6 +42,6 @@ services:
   #   restart: unless-stopped
 
     # As in the "app" service, use "forwardPorts" in **devcontainer.json** to forward an app port locally.
-volumes:
+# volumes:
 #   nodemodules:
 #     driver: local
