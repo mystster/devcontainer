@@ -13,8 +13,7 @@ services:
     volumes:
       # This is where VS Code should expect to find your project's source code and the value of "workspaceFolder" in .devcontainer/devcontainer.json
       - ..:/workspace:cached
-      - nodemodules:/workspaces/node_modules
-      # - dotfiles:/home/node/dotfiles
+      # - nodemodules:/workspace/node_modules
 
       # Uncomment the next line to use Docker from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker-compose for details.
       # - /var/run/docker.sock:/var/run/docker.sock 
@@ -44,7 +43,5 @@ services:
 
     # As in the "app" service, use "forwardPorts" in **devcontainer.json** to forward an app port locally.
 volumes:
-  nodemodules:
-    driver: local
-  # dotfiles:
-  #   driver: local
+#   nodemodules:
+#     driver: local
